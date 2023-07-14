@@ -17,8 +17,7 @@ html
     background-color: #000;
     position: fixed;
     top: 0px;
-    right: 0px;
-    left: 0px;
+    width: 100%;
     z-index: 1;
 }
 
@@ -80,7 +79,7 @@ html
     min-width: 160px;
 }
 
-#nav .nav-angle-down
+#header .nav-angle-down
 {
     font-size: 14px;
 }
@@ -92,7 +91,7 @@ html
 
 #header .header-search-icon
 {
-    font-size: 20px;
+    font-size: 16px;
     color: #fff;
     float: right;
     line-height: 46.5px;
@@ -111,29 +110,69 @@ html
 #slider .text
 {
     position: absolute;
-    color: #fff;
     bottom: 0px;
+    color: #fff;
     padding: 32px 16px;
-    width: 100%;
     text-align: center;
+    width: 100%;
 }
 
 #slider .text-heading
 {
-    font-size: 24px;
     margin: 10px 0px;
+    font-size: 24px;
+    line-height: 36px;
 }
 
 #slider .text-des
 {
-    font-size: 15px;
     margin: 15px 0px;
+    font-size: 15px;
 }
 
 #content
 {
-
+    
 } 
+
+#content .content-section
+{
+    padding: 64px 0px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2
+{
+    font-weight: normal;
+}
+
+#content .content-heading
+{
+    display: block;
+    margin: 10px 0px;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+#content .content-subheading
+{
+    margin-top: 20px;
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+    opacity: 0.5;
+}
+
+#content #about
+{
+    margin-top: 15px;
+    font-size: 15px;
+    text-align: justify;
+    line-height: 1.5;
+}
 
 #footer
 {
